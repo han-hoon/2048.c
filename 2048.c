@@ -545,9 +545,6 @@ int main(int argc, char *argv[]) {
                     
                     printf("\n\n\nWIN\n");
 		    printf("\n\n");
-                    printf("등록 할 이니셜을 3개 입력해주세요 !) : ");
-                    scanf("%s", record);
-                    
                     sprintf(ranking, "%d.%d\n", dis / 1000, dis % 1000);
                     
                     tem[0] = atof(ranking);
@@ -600,9 +597,6 @@ int main(int argc, char *argv[]) {
                     
                     printf("\n\n\n\t\t\t\t\t\t\tWIN\n");
 		    printf("\n\n");
-                    printf("등록 할 이니셜을 3개 입력해주세요 !) : ");
-                    scanf("%s", record);
-                    
                     sprintf(ranking, "%d.%d\n", dis / 1000, dis % 1000);
                     
                     tem[0] = atof(ranking);
